@@ -1,0 +1,17 @@
+{
+  "name": "IRON LOG Gym Tracker",
+  "short_name": "Iron Log",
+  "description": "Track your workouts, weights, reps, and sets dynamically with cloud persistence.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#0a0a0a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ]
+}
