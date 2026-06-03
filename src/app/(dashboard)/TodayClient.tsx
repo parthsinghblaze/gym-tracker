@@ -36,7 +36,8 @@ const MUSCLES = [
   { id: "chest", name: "Chest", icon: "💪" },
   { id: "back", name: "Back", icon: "🔙" },
   { id: "shoulders", name: "Shoulders", icon: "🏋️" },
-  { id: "arms", name: "Arms", icon: "💪" },
+  { id: "biceps", name: "Biceps", icon: "💪" },
+  { id: "triceps", name: "Triceps", icon: "🦾" },
   { id: "legs", name: "Legs", icon: "🦵" },
   { id: "core", name: "Core", icon: "⚡" },
   { id: "cardio", name: "Cardio", icon: "🏃" },
@@ -68,13 +69,21 @@ const EXERCISES: { [key: string]: Array<{ id: string; name: string; icon: string
     { id: "shrug", name: "Shrugs", icon: "🤷", muscle: "Shoulders" },
     { id: "arnold_press", name: "Arnold Press", icon: "🌀", muscle: "Shoulders" },
   ],
-  arms: [
+  biceps: [
     { id: "barbell_curl", name: "Barbell Curl", icon: "💪", muscle: "Biceps" },
     { id: "hammer_curl", name: "Hammer Curl", icon: "🔨", muscle: "Biceps" },
+    { id: "preacher_curl", name: "Preacher Curl", icon: "🙏", muscle: "Biceps" },
+    { id: "concentration_curl", name: "Concentration Curl", icon: "🎯", muscle: "Biceps" },
+    { id: "incline_curl", name: "Incline Curl", icon: "📐", muscle: "Biceps" },
+    { id: "cable_curl", name: "Cable Curl", icon: "🔁", muscle: "Biceps" },
+  ],
+  triceps: [
     { id: "tricep_push", name: "Tricep Pushdown", icon: "⬇️", muscle: "Triceps" },
     { id: "skull_crusher", name: "Skull Crusher", icon: "💀", muscle: "Triceps" },
     { id: "dip", name: "Dips", icon: "⬇️", muscle: "Triceps" },
-    { id: "preacher_curl", name: "Preacher Curl", icon: "🙏", muscle: "Biceps" },
+    { id: "overhead_ext", name: "Overhead Extension", icon: "🔝", muscle: "Triceps" },
+    { id: "close_grip_bench", name: "Close Grip Bench", icon: "🏋️", muscle: "Triceps" },
+    { id: "tricep_kickback", name: "Tricep Kickback", icon: "↩️", muscle: "Triceps" },
   ],
   legs: [
     { id: "squat", name: "Squat", icon: "🦵", muscle: "Quads" },
